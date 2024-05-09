@@ -1,7 +1,9 @@
 /* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,4 +18,52 @@ body {
     background-repeat: no-repeat;
     flex-direction: column;
 }
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+#logo-header {
+    display: flex;
+    justify-content: center;
+    min-height: 20%;
+}
+
+
+
+.start-screen {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#start-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-screen button
+.restart-button {
+    font-size: 25px;
+    font-weight: 50px;
+    background: #fffbbb;
+    color: #2f4f4f;
+    padding:  15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
 
