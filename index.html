@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Trivia!</title>
+</head>
+<body>
+    <header id="logo-header">
+        <img id="logo" src="assets/images/bible-quiz.png" alt="Bible Quiz logo"
+    </header>
+     <!--Start Button-->
+     <div class="start-screen">
+        <button class="btn glow-effect" id="start-btn" aria-label="close">Start Quiz
+            <svg class="glow-container"> <rect height="1" width="1" stroke-linecap="round" class="glow-blur"></rect>
+                <rect height="1" width="1" stroke-linecap="round" class="glow-line"></rect></svg>
+        </button>
+    </div>
+
+     <!--Rules Box-->
+     <div class="rules-box">
+        <div class="rules-title">
+            <span>Rules of the Quiz</span>
+        </div>
+        <div class="rule-list"></div>
+        <div class="rule">1. You will have only<span> 15 seconds</span> per question</div>
+        <div class="rule">2. You can only select one answer</div>
+        <div class="rule">3. You cannot change your answer once you have selected it</div>
+    </div> 
+
+     <!--Trivia Container-->
+     <div id="trivia-container">
+        <div class="header">
+            <div class="num-of-counts">
+                <span class="num-of-question">
+                    number of questions
+                </span>
+            </div>
+        </div>
+        <div class="timer">
+            <div class="time-text">Time left:</div>
+            <div class="time-sec">15s</div>
+        </div>
+        <div id="que-container">
+        <!--Questions and option-list will display here-->
+        </div>
+        <button id="next-que-btn">Next Que</button>
+    </div>
+
+     <!--Score Container-->
+     <div class="score-container hide">
+        <div id="player-score">Player Score</div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Continue
+                <svg class="glow-container"> <rect height="1" width="1" stroke-linecap="round" class="glow-blur"></rect>
+                    <rect height="1" width="1" stroke-linecap="round" class="glow-line"></rect></svg>
+            </button>
+        </div>
+       
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
